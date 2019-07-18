@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Piersweb is Bestweb</title>
+    
+    <meta name="author" content="Piers Mana">
+    <meta name="description" content="Permanently TBD">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf" content="<%= Plug.CSRFProtection.get_csrf_token() %>">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://z.<%= @site_domain %>/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://z.<%= @site_domain %>/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://z.<%= @site_domain %>/favicon-16x16.png">
+    <link rel="manifest" href="https://z.<%= @site_domain %>/site.webmanifest">
+    <link rel="mask-icon" href="https://z.<%= @site_domain %>/safari-pinned-tab.svg" color="#b606b6">
+    
+    <meta name="msapplication-TileColor" content="#b606b6">
+    <meta name="msapplication-config" content="https://z.<%= @site_domain %>/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="canonical" href="https://www.<%= @site_domain %>/">
+    <link href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body style="background:green url('https://gateway.pinata.cloud/ipfs/QmPHjhnfT1hRD5eYRkk58pqj2cffuYdXqnVjqzPPQtVfUB') no-repeat fixed center; background-size: cover;">
+    
+  <main>
+  <%= render @view_module, @view_template, assigns %>
+  </main>
+  
+  </body>
+</html>
