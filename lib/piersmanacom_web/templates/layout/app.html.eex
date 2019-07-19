@@ -26,9 +26,7 @@
   </head>
   <body style="background:green url('https://gateway.pinata.cloud/ipfs/QmPHjhnfT1hRD5eYRkk58pqj2cffuYdXqnVjqzPPQtVfUB') no-repeat fixed center; background-size: cover;">
     
-  <main>
   <%= render @view_module, @view_template, assigns %>
-  </main>
   
   </body>
 </html>
