@@ -1,9 +1,6 @@
+<h1>Talk to me ;P</h1>
 <widgetbot
   server="601138127754625029"
   channel="601142655816040471"
-  width="800"
-  height="600"
-  id="embed-widget-bot"
   shard="https://disweb.deploys.io"
 ></widgetbot>
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>

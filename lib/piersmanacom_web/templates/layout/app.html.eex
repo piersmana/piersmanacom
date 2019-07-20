@@ -23,6 +23,8 @@
     
     <link rel="canonical" href="https://www.<%= @site_domain %>/">
     <link href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css" rel="stylesheet" type="text/css" media="all">
+    
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
   </head>
   <body style="background:green url('https://gateway.pinata.cloud/ipfs/QmPHjhnfT1hRD5eYRkk58pqj2cffuYdXqnVjqzPPQtVfUB') no-repeat fixed center; background-size: cover;">
     
